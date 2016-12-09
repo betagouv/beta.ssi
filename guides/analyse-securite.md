@@ -8,7 +8,7 @@
   - Les contraintes d’homologation spécifiques aux acteurs publics sont __soulignées__ ainsi tout au long de ce manuel
 - Les projets développés selon la démarche agile
   - Développement itératif, incrémental et adaptatif ou le produit se construit dans le temps. La prise en compte de la sécurité se fait au fur et à mesure.
-  - DevOps – regroupement du développement (Built) et de la mise en production (run) dans la seule démarche Agile.
+  - DevOps – regroupement du développement (Build) et de la mise en production (Run) dans la seule démarche Agile.
 - Les projets développés selon tout autre démarche / méthode
 
 ## Pourquoi ?
