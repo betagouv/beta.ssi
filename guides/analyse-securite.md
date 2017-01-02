@@ -2,7 +2,7 @@
 
 ## Pour qui et quels projets ?
 
-- Les clients, les maîtrises d’ouvrage 
+- Les clients, les maîtrises d’ouvrage
 - Les concepteurs / développeurs / exploitants de produits informatiques : matériels, logiciels, infrastructure
 - Les producteurs de services publics et privés.
   - Les contraintes d’homologation spécifiques aux acteurs publics sont __soulignées__ ainsi tout au long de ce manuel
@@ -92,12 +92,12 @@ Un risque est un scénario combinant un *événement redouté* sur une *valeur m
 
 ### Représentation
 
-Dans une démarche Agile, un risque est représenté par une « Abuser Story » décrivant 
-- la réalisation d’un scénario de menaces 
-  - provoquant un évènement redouté 
-    - sur une valeur métier ayant 
-      - des besoins sécurité et 
-      - des impacts engendrés en cas de non respect de ces besoins, 
+Dans une démarche Agile, un risque est représenté par une « Abuser Story » décrivant
+- la réalisation d’un scénario de menaces
+  - provoquant un évènement redouté
+    - sur une valeur métier ayant
+      - des besoins sécurité et
+      - des impacts engendrés en cas de non respect de ces besoins,
   - en exploitant une vulnérabilité d’un composant du produit.
 
 Exemple : En tant qu’attaquant, j’empêche les clients de demander un taxi en inondant le serveur applicatif par un attaque DOS.
