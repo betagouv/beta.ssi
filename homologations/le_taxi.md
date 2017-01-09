@@ -5,7 +5,7 @@
 Le Directeur Interministériel du Numérique, des Systèmes d'Information et de Communication
 
   - vu le Référentiel Général de Sécurité version 2.0 approuvé par arrêté du 13 juin 2014
-  - vu le Guide de l'Homologation de Sécurité de l'ANSSI, version 1.0 d'Août 2014
+  - vu le [Guide de l'Homologation de Sécurité de l'ANSSI](https://www.ssi.gouv.fr/uploads/2014/06/guide_homologation_de_securite_en_9_etapes.pdf), version 1.0 d'Août 2014
   - vue la Politique de Sécurité S.I. de l'Incubateur de la DINSIC, https://github.com/sgmap/beta.ssi/ dans sa version du XX janvier 2017
   - vu le Décret n° 2016-335 du 21 mars 2016 relatif au registre national de disponibilité des taxis
   - vu les éléments du "Dossier d'homologation : Le Taxi", ci-après ou inclus par référence
