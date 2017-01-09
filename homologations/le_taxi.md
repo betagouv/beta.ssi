@@ -29,7 +29,7 @@ L'homologation couvre le système constituant le registre national de disponibil
 
 ## Durée et conditions de l'homologation
 
-La décision d'homologation est temporaire, pour une durée maximale de 6 mois, et soumise à des conditions de volumétrie d'usage du service : elle n'est valable, et les risques résiduels considérés comme acceptables, que pour un volume de courses journalier inférieur à 500. En cas de dépassement de ce seuil, une nouvelle homologation doit être prononcée sous un délai de 3 mois.
+La décision d'homologation est temporaire, pour une durée maximale de 24 mois, et soumise à des conditions de volumétrie d'usage du service : elle n'est valable, et les risques résiduels considérés comme acceptables, que pour un volume de courses journalier inférieur à 500. En cas de dépassement de ce seuil, une nouvelle homologation doit être prononcée sous un délai de 3 mois.
 
 ## Démarche
 
