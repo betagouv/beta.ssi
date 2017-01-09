@@ -25,7 +25,7 @@ La commission d'homologation est constituée de
 
 L'homologation couvre le système constituant le registre national de disponibilité des taxis, c'est à dire le serveur hébergeant l'API Taxi Exchange Point (TXP), les bases de données, les procédures et opérateurs affectés à son exploitation; ce périmètre exclut tout système ou application, mobile ou non, susceptible d'être connecté à l'API.
 
-<object type="image/svg+xml" data="https://cdn.rawgit.com/openmaraude/APITaxi_front/588acd56562385ca02e1de3aba0fb8635480e4e9/APITaxi_front/static/images/overview.svg">Your browser does not support SVG</object>
+![Diagramme de composants logiques](https://cdn.rawgit.com/openmaraude/APITaxi_front/588acd56562385ca02e1de3aba0fb8635480e4e9/APITaxi_front/static/images/overview.svg)
 
 ## Durée et conditions de l'homologation
 
