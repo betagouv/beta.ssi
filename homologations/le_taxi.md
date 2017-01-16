@@ -22,6 +22,12 @@ L'homologation couvre le système constituant le registre national de disponibil
 
 ![Diagramme de composants logiques](https://cdn.rawgit.com/openmaraude/APITaxi_front/588acd56562385ca02e1de3aba0fb8635480e4e9/APITaxi_front/static/images/overview.svg)
 
+Comme indiqué ci-dessus, les partenaires susceptible de s'interconnecter au registre sont de deux types:
+- *moteurs de recherche* - consommateurs des données de position: 8 actuellement référencés
+- *opérateurs de taxis* - fournisseurs des données de position: 20 actuellement référencés
+
+L'adhésion des partenaires des deux types se fait en ligne par formulaire accessible à l'adresse http://le.taxi/join.html et délivre un "jeton" exigé pour toute utilisation de l'API, et *sous réserve d'acceptation des CGU* disponibles à l'adresse http://le.taxi/files/CGU.pdf .
+
 ## Durée et conditions de l'homologation
 
 La décision d'homologation est temporaire, pour une durée maximale de 24 mois, et soumise à des conditions de volumétrie d'usage du service : elle n'est valable, et les risques résiduels considérés comme acceptables, que pour un volume de courses journalier inférieur à 500. En cas de dépassement de ce seuil, une nouvelle homologation doit être prononcée sous un délai de 3 mois.
@@ -39,9 +45,22 @@ Pendant la durée de l'homologation, une Commission d'Homologation est réunie
 - si par tout autre moyen une menace nouvelle est portée à la connaissance de l'un des membres de la Commission 
 - dans tous les cas, dans un délai de 12 mois à compter de la décision d'homologation initiale, pour un réexamen à mi-parcours
 
+## Recensement des composants du système
+
+Composants physiques:
+
+  - un serveur hébergé par OVH, identifiant technique ns376081
+
+Composants logiques:
+
+  - recensés sur https://github.com/openmaraude
+  - exposés sur le Web aux adresses
+    - http://le.taxi/ (documentation générale)
+    - https://api.taxi/documentation (documentation technique)
+
 ## Analyse des risques
 
-Cette analyse recense
+Cette analyse couvre
 
   - les biens essentiels ("valeurs métier")
   - les sources de menaces
@@ -52,16 +71,6 @@ Cette analyse recense
   - les risques résiduels
 
 Incorporée par référence: https://github.com/openmaraude/le.taxi/wiki/Anayse-des-risques dans sa version du XX janvier 2017 (page accessible publiquement)
-
-## Recensement des composants du système
-
-Composants physiques:
-
-  - un serveur hébergé par OVH, identifiant technique ns376081
-
-Composants logiques:
-
-  - recensés sur https://github.com/openmaraude
 
 ## Procédures d'exploitations sécurisées
 
