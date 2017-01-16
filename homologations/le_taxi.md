@@ -57,7 +57,7 @@ Incorporée par référence: https://github.com/openmaraude/le.taxi/wiki/Anayse-
 
 Composants physiques:
 
-  - un serveur hébergé par OVH, identifiant technique XXXXX
+  - un serveur hébergé par OVH, identifiant technique ns376081
 
 Composants logiques:
 
@@ -65,7 +65,48 @@ Composants logiques:
 
 ## Procédures d'exploitations sécurisées
 
-TODO
+### Contrôles d’accès physique
+
+Le serveur est hébergé par OVH, unique exploitant du centre de données. 
+Seuls les salariés accrédités peuvent accéder physiquement aux serveurs informatiques.
+L'accès est contrôlés par badge, surveillance vidéo et gardiennage 24/7.
+
+### Standards pour les mots de passe
+
+Les mots de passe des utilisateurs leur sont attribués par les opérateurs affectés à l'exploitation du Taxi Exchange Point (TXP).
+Ils sont générés à l'aide d'un générateur de mots de passe utilisant les réglages suivants :
+
+  - 10 caractères
+  - Majuscules, minuscules, chiffres et symboles
+
+### Gestion et réponse aux incidents
+
+Les opérateurs affectés à l'exploitation du Taxi Exchange Point (TXP) sont seuls accrédités à intervenir sur le Taxi Exchange Point (TXP).
+L'authentification des opérateurs affectés à l'exploitation du Taxi Exchange Point (TXP) est individuelle, multifacteurs (HOTP) et loguée.
+
+### Sauvegardes 
+
+Les différents éléments sauvegardés sont :
+
+ - les sources : publiquement sur https://github.com/openmaraude
+ - la configuration : sur un gitlab privé
+ - les données : sauvegardes périodiques chiffrées (GPG) exportées vers un stockage distant
+
+### Chiffrement des données et des communications
+
+Toutes les communications entre le Taxi Exchange Point (TXP) et le monde extérieur sont chiffrées par SSL.
+Seule exception, les datagrammes UDP remontant des opérateurs de taxis vers le Taxi Exchange Point (TXP) sont en clair (signés mais pas chiffrés), mais ce canal est unidirectionnel.
+
+### Tests de la sécurité
+
+Des tests réguliers de sécurité sont effectués avec des scanners de vulnérabilité (Qualys SSL Labs, AsafaWeb).
+Les résultats de certains de ces tests sont publiquement consultables sur https://verif.site/#api.taxi
+
+### Surveillance en continu
+
+La disponibilité est surveillée en continu et publiquement consultable sur http://opendatataxi.fr/status/
+Les opérateurs affectés à l'exploitation du Taxi Exchange Point (TXP) sont automatiquement alertés par e-mail en cas d'incident.
+
 
 ## Signature
 
