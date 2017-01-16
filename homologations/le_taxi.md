@@ -12,14 +12,9 @@ Le Directeur Interministériel du Numérique, des Systèmes d'Information et de 
 
 décide l'homologation du système constituant le registre national de disponibilité des taxis, aux conditions prévues ci-après.
 
-## Commission d'homologation
+## Commission d'Homologation
 
-La commission d'homologation est constituée de
-
-  - V.B.
-  - V.L.
-  - L.V.
-  - L.B.
+Elle réunit l'autorité d'homologation, son RSSI et au moins un des membres de l'équipe Le Taxi.
 
 ## Périmètre
 
@@ -37,7 +32,12 @@ La démarche retenue est une démarche autonome _a minima_ ("Pianissimo"), confo
 
 ## Suivi
 
-Pendant la durée de l'homologation, la Commission est réunie si une modification substantielle de l'architecture du service, de nature a altérer l'analyse des risques, est envisagée ou implémentée.
+Pendant la durée de l'homologation, une Commission d'Homologation est réunie
+
+- si une modification substantielle de l'architecture du service, de nature a altérer l'analyse des risques, est envisagée ou implémentée
+- si la surveillance active de l'exploitation du système (cf. ci-dessous, "Surveillance en continu") fait apparaître des incidents laissant supposer des menaces nouvelles
+- si par tout autre moyen une menace nouvelle est portée à la connaissance de l'un des membres de la Commission 
+- dans tous les cas, dans un délai de 12 mois à compter de la décision d'homologation initiale, pour un réexamen à mi-parcours
 
 ## Analyse des risques
 
@@ -67,9 +67,9 @@ Composants logiques:
 
 ### Contrôles d’accès physique
 
-Le serveur est hébergé par OVH, unique exploitant du centre de données. 
-Seuls les salariés accrédités peuvent accéder physiquement aux serveurs informatiques.
-L'accès est contrôlés par badge, surveillance vidéo et gardiennage 24/7.
+Le serveur est hébergé par OVH, unique exploitant du centre de données.  Seuls les salariés accrédités peuvent accéder physiquement aux serveurs informatiques. L'accès est contrôlés par badge, surveillance vidéo et gardiennage 24/7.
+
+L'entreprise OVH revendique pour son offre Cloud les certifications listées à l'adresse suivante: https://www.ovh.com/fr/apropos/certifications.xml - à la date de ce document, les certifications PCI-DSS, ISO/IEC 27001, SOC 1 type II et SOC 2 type II.
 
 ### Standards pour les mots de passe
 
@@ -107,6 +107,7 @@ Les résultats de certains de ces tests sont publiquement consultables sur https
 La disponibilité est surveillée en continu et publiquement consultable sur http://opendatataxi.fr/status/
 Les opérateurs affectés à l'exploitation du Taxi Exchange Point (TXP) sont automatiquement alertés par e-mail en cas d'incident.
 
+Les paramètres d'exploitation sont surveillés en continu sur https://api.taxi/munin/ et des alertes mail sont adressées aux opérateurs du système en cas de dépassement des valeurs critiques.
 
 ## Signature
 
