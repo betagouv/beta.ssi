@@ -7,7 +7,9 @@ Le Directeur Interministériel du Numérique, des Systèmes d'Information et de 
   - vu le Référentiel Général de Sécurité version 2.0 approuvé par arrêté du 13 juin 2014
   - vu le [Guide de l'Homologation de Sécurité de l'ANSSI](https://www.ssi.gouv.fr/uploads/2014/06/guide_homologation_de_securite_en_9_etapes.pdf), version 1.0 d'Août 2014
   - vue la Politique de Sécurité S.I. de l'Incubateur de la DINSIC, https://github.com/sgmap/beta.ssi/ dans sa version du XX janvier 2017
+  - vus les articles L. 3121-11-1 et R3121-24 à R3121-33 du Code des transports
   - vu le Décret n° 2016-335 du 21 mars 2016 relatif au registre national de disponibilité des taxis
+  - vu les Conditions Générales d'Utilisation, disponibles à l'adresse http://le.taxi/files/CGU.pdf
   - vu les éléments du "Dossier d'homologation : Le Taxi", ci-après ou inclus par référence
 
 décide l'homologation du système constituant le registre national de disponibilité des taxis, aux conditions prévues ci-après.
