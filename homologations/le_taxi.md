@@ -68,7 +68,7 @@ Cette analyse couvre
   - les événements redoutés et leurs impacts
   - les sources et scénarios de menaces
   - les biens essentiels ("valeurs métier") et besoins de sécurité
-  - les risques matrisés et mesures de sécurité existantes
+  - les risques maîtrisés et mesures de sécurité existantes
   - les risques résiduels
 
 Incorporée par référence: https://github.com/openmaraude/le.taxi/wiki/Anayse-des-risques dans sa version du XX janvier 2017 (page accessible publiquement)
