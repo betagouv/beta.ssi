@@ -20,11 +20,11 @@ Elle réunit l'autorité d'homologation, son RSSI et au moins un des membres de 
 
 ## Périmètre
 
-L'homologation couvre le système constituant le registre national de disponibilité des taxis, c'est à dire le serveur hébergeant l'API Taxi Exchange Point (TXP), les bases de données, les procédures et opérateurs affectés à son exploitation; ce périmètre exclut tout système ou application, mobile ou non, susceptible d'être connecté à l'API.
+L'homologation couvre le système constituant le registre national de disponibilité des taxis, c'est à dire le serveur hébergeant l'API Taxi Exchange Point (TXP), les bases de données, les procédures et administrateurs affectés à son exploitation; ce périmètre exclut tout système ou application, mobile ou non, susceptible d'être connecté à l'API.
 
 ![Diagramme de composants logiques](https://cdn.rawgit.com/openmaraude/APITaxi_front/588acd56562385ca02e1de3aba0fb8635480e4e9/APITaxi_front/static/images/overview.svg)
 
-Comme indiqué ci-dessus, les partenaires susceptible de s'interconnecter au registre sont de deux types:
+Comme indiqué ci-dessus, les partenaires susceptibles de s'interconnecter au registre sont de deux types:
 - *moteurs de recherche* - consommateurs des données de position: 8 actuellement référencés
 - *opérateurs de taxis* - fournisseurs des données de position: 20 actuellement référencés
 
@@ -64,17 +64,20 @@ Composants logiques:
 
 Cette analyse couvre
 
-  - les biens essentiels ("valeurs métier")
-  - les sources de menaces
   - les composants du SI
-  - les événements redoutés
-  - les scénarios de menace
-  - les mesures de sécurité existantes
+  - les événements redoutés et leurs impacts
+  - les sources et scénarios de menaces
+  - les biens essentiels ("valeurs métier") et besoins de sécurité
+  - les risques matrisés et mesures de sécurité existantes
   - les risques résiduels
 
 Incorporée par référence: https://github.com/openmaraude/le.taxi/wiki/Anayse-des-risques dans sa version du XX janvier 2017 (page accessible publiquement)
 
 ## Procédures d'exploitations sécurisées
+
+### Organisation de l'exploitation
+
+L'exploitation et la maintenance du système sont organisées selon les principes "Devops", c'est-à-dire dans un mode d'organisation bannissant les silos et considérant le "build" comme consubstantiel au "run": une équipe resserrée constituée des deux développeurs et concepteurs qui sont également administrateurs. Ainsi la responsabilité entière des domaines de sécurité (protection, défense, résilience) est entre les mains d'une seule et même équipe.
 
 ### Contrôles d’accès physique
 
@@ -84,7 +87,7 @@ L'entreprise OVH revendique pour son offre Cloud les certifications listées à 
 
 ### Standards pour les mots de passe
 
-Les mots de passe des utilisateurs leur sont attribués par les opérateurs affectés à l'exploitation du Taxi Exchange Point (TXP).
+Les mots de passe des utilisateurs (opérateurs de taxi et moteurs de recherche) leur sont attribués par les administrateurs affectés à l'exploitation du Taxi Exchange Point (TXP).
 Ils sont générés à l'aide d'un générateur de mots de passe utilisant les réglages suivants :
 
   - 10 caractères
@@ -92,8 +95,8 @@ Ils sont générés à l'aide d'un générateur de mots de passe utilisant les r
 
 ### Gestion et réponse aux incidents
 
-Les opérateurs affectés à l'exploitation du Taxi Exchange Point (TXP) sont seuls accrédités à intervenir sur le Taxi Exchange Point (TXP).
-L'authentification des opérateurs affectés à l'exploitation du Taxi Exchange Point (TXP) est individuelle, multifacteurs (HOTP) et loguée.
+Les administrateurs affectés à l'exploitation du Taxi Exchange Point (TXP) sont seuls accrédités à intervenir sur le Taxi Exchange Point (TXP).
+L'authentification des administrateurs affectés à l'exploitation du Taxi Exchange Point (TXP) est individuelle, multifacteurs (HOTP) et loguée.
 
 ### Sauvegardes 
 
