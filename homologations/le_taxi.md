@@ -18,6 +18,10 @@ décide l'homologation du système constituant le registre national de disponibi
 
 Elle réunit l'autorité d'homologation, son RSSI et au moins un des membres de l'équipe Le Taxi.
 
+## Démarche
+
+La démarche retenue est une démarche autonome _a minima_ ("Pianissimo"), conforme également au Guide d'Analyse des Risques et au Guide d'Homologation visant les équipes dites "Agiles" (ouvrages en cours de réalisation par l'ANSSI conjointement avec la DINSIC).
+
 ## Périmètre
 
 L'homologation couvre le système constituant le registre national de disponibilité des taxis, c'est à dire le serveur hébergeant l'API Taxi Exchange Point (TXP), les bases de données, les procédures et administrateurs affectés à son exploitation; ce périmètre exclut tout système ou application, mobile ou non, susceptible d'être connecté à l'API.
@@ -33,10 +37,6 @@ L'adhésion des partenaires des deux types se fait en ligne par formulaire acces
 ## Durée et conditions de l'homologation
 
 La décision d'homologation est temporaire, pour une durée maximale de 24 mois, et soumise à des conditions de volumétrie d'usage du service : elle n'est valable, et les risques résiduels considérés comme acceptables, que pour un volume de courses journalier inférieur à 500. En cas de dépassement de ce seuil, une nouvelle homologation doit être prononcée sous un délai de 3 mois.
-
-## Démarche
-
-La démarche retenue est une démarche autonome _a minima_ ("Pianissimo"), conforme également au Guide d'Analyse des Risques et au Guide d'Homologation visant les équipes dites "Agiles" (ouvrages en cours de réalisation par l'ANSSI conjointement avec la DINSIC).
 
 ## Suivi
 
