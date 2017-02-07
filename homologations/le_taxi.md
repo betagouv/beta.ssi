@@ -45,7 +45,7 @@ Pendant la durée de l'homologation, une Commission d'Homologation est réunie
 - si une modification substantielle de l'architecture du service, de nature a altérer l'analyse des risques, est envisagée ou implémentée
 - si la surveillance active de l'exploitation du système (cf. ci-dessous, "Surveillance en continu") fait apparaître des incidents laissant supposer des menaces nouvelles
 - si par tout autre moyen une menace nouvelle est portée à la connaissance de l'un des membres de la Commission 
-- dans tous les cas, dans un délai de 12 mois à compter de la décision d'homologation initiale, pour un réexamen à mi-parcours
+- dans tous les cas, dans un délai de 12 mois à compter de la décision d'homologation initiale, pour un réexamen formel à mi-parcours
 
 ## Recensement des composants du système
 
